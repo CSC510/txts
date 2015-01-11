@@ -13,7 +13,7 @@
     123     123       123          123
       1     1          1             1
     456     78         910          12
-	 12     12        12            12
+     12     12        12            12
 	
 Table:  Demonstration of simple table syntax.
 

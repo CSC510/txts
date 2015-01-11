@@ -5,7 +5,7 @@ set samples 25, 25
 set isosamples 26, 26
 set contour base
 set cntrparam bspline
-set title "3D gnuplot demo - contour NCSU" 
+set title "3D gnuplot demo - contour of Sinc function" 
 set xlabel "Xx axis" 
 set ylabel "Yy axis" 
 set zlabel "Z axis" 

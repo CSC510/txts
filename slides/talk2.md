@@ -48,15 +48,24 @@ rolling ![all the dat](../img/dot/dot1.png)
 - $f(x)=\sum_{n=0}^\infty\frac{f^{(n)}(a)}{n!}(x-a)^n$
 
 # Jesse Xu
--Self Introduction
+- Self Introduction
+- <img align=right src="../img/jesse.jpg">
+
+<center>
+- My name is Shiqian Jesse Xu
+- My email is jesse.xu.20@gmail.com
+- Mobi: 919-594-2518
+
+</center>
+
 
 # Fred Li
--Self Introduction
+- Self Introduction
 
 # Jiang Gu
--Self Introduction
+- Self Introduction
 
 # Hongyi Ma
--Self Introduction
+- Self Introduction
 
 # References

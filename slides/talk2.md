@@ -47,4 +47,16 @@ rolling ![all the dat](../img/dot/dot1.png)
 - And the answer is...
 - $f(x)=\sum_{n=0}^\infty\frac{f^{(n)}(a)}{n!}(x-a)^n$
 
+# Jesse Xu
+-Self Introduction
+
+# Fred Li
+-Self Introduction
+
+# Jiang Gu
+-Self Introduction
+
+# Hongyi Ma
+-Self Introduction
+
 # References

@@ -60,7 +60,12 @@ rolling ![all the dat](../img/dot/dot1.png)
 
 
 # Fred Li
-- Self Introduction
+
+<center>
+- My name is Pengyu Li.
+- My email is pli5@ncsu.edu
+</center>
+
 
 # Jiang Gu
 - Self Introduction

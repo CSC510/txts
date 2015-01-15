@@ -29,7 +29,6 @@ The ziffness of dorkies must:
 As shown here:
 
 <img align=right src="../img/plot/plot1.png">
-<img align=left src="../img/plot2.jpg">
 
 - z-ness has large variance [@item1; @item2].
 - x is symmetric to y  [@item3, pp. 33-35]
@@ -58,14 +57,13 @@ rolling ![all the dat](../img/dot/dot1.png)
 
 </center>
 
+# Pengyu(Fred) Li
 
-# Fred Li
+<img align=right src="../img/plot2.jpg">
 
-<center>
 - My name is Pengyu Li.
-- My email is pli5@ncsu.edu
-</center>
 
+- My email is pli5@ncsu.edu
 
 # Jiang Gu
 - Self Introduction

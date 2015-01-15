@@ -2,6 +2,36 @@
 % Team Member
 %Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma
 
+# Jesse Xu
+- Self Introduction
+- <img align=right src="../img/jesse.jpg">
+
+<center>
+- My name is Shiqian Jesse Xu
+- My email is jesse.xu.20@gmail.com
+- Mobi: 919-594-2518
+
+</center>
+
+# Pengyu(Fred) Li
+
+<img align=right src="../img/plot2.jpg">
+
+- My name is Pengyu Li.
+
+- My email is pli5@ncsu.edu
+
+# Jiang Gu
+- Self Introduction
+
+# Hongyi Ma
+- Self Introduction
+
+# Project Proposal (Technical Track)
+
+# References
+
+
 # In the morning
 
 
@@ -45,32 +75,3 @@ rolling ![all the dat](../img/dot/dot1.png)
 
 - And the answer is...
 - $f(x)=\sum_{n=0}^\infty\frac{f^{(n)}(a)}{n!}(x-a)^n$
-
-# Jesse Xu
-- Self Introduction
-- <img align=right src="../img/jesse.jpg">
-
-<center>
-- My name is Shiqian Jesse Xu
-- My email is jesse.xu.20@gmail.com
-- Mobi: 919-594-2518
-
-</center>
-
-# Pengyu(Fred) Li
-
-<img align=right src="../img/plot2.jpg">
-
-- My name is Pengyu Li.
-
-- My email is pli5@ncsu.edu
-
-# Jiang Gu
-- Self Introduction
-
-# Hongyi Ma
-- Self Introduction
-
-# Project Proposal (Technical Track)
-
-# References

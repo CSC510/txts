@@ -1,6 +1,6 @@
-% Sample Website
+% HomeWork1
 % Team Member
-% January 9, 2015
+%Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma
 
 # In the morning
 

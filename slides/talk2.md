@@ -15,7 +15,7 @@
 
 # Pengyu(Fred) Li
 
-<img align=right src="../img/plot2.jpg">
+<img align=right src="../img/cat.jpg">
 
 - My name is Pengyu Li.
 

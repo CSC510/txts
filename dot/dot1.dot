@@ -2,5 +2,4 @@ digraph {
   saturday -> sunday 
   sunday  -> weekday [label="so sad"];
   weekday -> saturday [label="so happy"];
-  
 }

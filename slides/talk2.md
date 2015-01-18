@@ -33,6 +33,9 @@
 
 # References
 
+# Flow
+
+![all the dat](../img/dot/flow.png)
 
 # In the morning
 
@@ -75,5 +78,5 @@ rolling ![all the dat](../img/dot/dot1.png)
 
 # Conclusion
 
-- And the answer is...
+And the answer is...
 - $f(x)=\sum_{n=0}^\infty\frac{f^{(n)}(a)}{n!}(x-a)^n$

@@ -23,6 +23,7 @@
 
 # Jiang Gu
 - Self Introduction
+- Geeker 
 
 # Hongyi Ma
 - My name is Hongyi Ma
@@ -30,6 +31,22 @@
 - My email is hma5#ncsu.edu
 
 #Project Proposal
+#Spring vs. Rails
+Spring:
+
+- Enterprise application
+
+- ORM with Tools, Hibernate
+
+- Mature platform with extensive community
+
+Rails:
+
+- Light weight application
+
+- Easy with data persistence
+
+- Dynamic and User friendly
 
 # References
 

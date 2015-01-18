@@ -25,9 +25,11 @@
 - Self Introduction
 
 # Hongyi Ma
-- Self Introduction
+- My name is Hongyi Ma
 
-# Project Proposal (Technical Track)
+- My email is hma5#ncsu.edu
+
+#Project Proposal
 
 # References
 

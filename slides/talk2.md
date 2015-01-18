@@ -34,27 +34,27 @@
 # References
 
 
-# In the morning
+# Software Development Cycle
 
 
+
+<br>
 <center>
 
-  Right     Left     Center     Default
--------     ------ ----------   -------
-     12     12        12            12
-    123     123       123          123
-      1     1          1             1
-    456     78         910          12
-     12     12        12            12
-	
-Table:  Demonstration of simple table syntax.
-
+  Time      Things to do
+---------   -------------------------------------
+   Week 1     Plan and Set up Environment
+   Week 2     Set up design Requirement and Rubric
+   Week 3     Development in Java Environment
+   Week 4     Run Unit Test & Integration test  
+   Week 5     Development in Ruby Environment
+   Week 6     Run Unit Test & Integration test
+   Week 7     Analysis two development process and reach to Conclusions
+   Week 8     Finish &  Report
 </center>
+	
+Table:  Potential Software Development Cycle
 
-The ziffness of dorkies must:
-
-- Eat eggs
-- Drink coffee
 
 # In the evening
 

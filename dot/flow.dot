@@ -1,0 +1,15 @@
+digraph {
+     User [shape=box];
+     VerifyingInformation [shape=box];
+     AttachFile [shape=box];
+     CheckDeadline [shape=box];
+     SendTo [shape=box];
+     Database [shape=box];
+     Instructor [shape=box];
+	User -> VerifyingInformation [label = "Username and Passward"];
+	VerifyingInformation -> AttachFile [label = "Verified Information"];
+	AttachFile -> CheckDeadline [label = "file"];
+	CheckDeadline -> SendTo
+	SendTo -> Database
+	SendTo -> Instructor
+}

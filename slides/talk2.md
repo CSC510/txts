@@ -4,12 +4,12 @@
 
 # Jesse Xu
 - Self Introduction
-- <img align=right src="../img/jesse.jpg">
+
 
 <center>
 - My name is Shiqian Jesse Xu
 - My email is jesse.xu.20@gmail.com
-- Mobi: 919-594-2518
+- Hobby: Eating,playing!!(thinking about how to use software to help game)
 
 </center>
 
@@ -98,10 +98,12 @@ Ruby on Rails:
 	
 Table:  Potential Software Development Cycle
 
-# Plot Picture
+# Work Load Estimate
 
 <img align=right src="../img/plot/plot1.png">
 
-- z-ness has large variance [@item1; @item2].
-- x is symmetric to y  [@item3, pp. 33-35]
-- as predicted by theory [@item1]
+- Approximately 13 hours are used to develop Java
+- Approximately 12 hours are used to develop Ruby
+- About 20 hours are used in test
+- About 15 hours are used in coding
+- About 10 hours are used for other things

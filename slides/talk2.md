@@ -31,23 +31,6 @@
 - My email is hma5#ncsu.edu
 
 #Project Proposal
-#Spring vs. Rails
-Spring:
-
-- Enterprise application
-
-- ORM with Tools, Hibernate
-
-- Mature platform with extensive community
-
-Rails:
-
-- Light weight application
-
-- Easy with data persistence
-
-- Dynamic and User friendly
-
 # Introduction
 The idea of the project is to develop an online system for managing assignments using two popular approaches(Ruby on Rails / Java).
 In the online system, there will be different access control restriction based on the roles of Admin, Instructors, TAs and Students.
@@ -62,7 +45,9 @@ In the end, we plan to compare two approaches or two architectures with developm
 3. Both instructors and TAs can see the class roll and homework attempts and grades of all students.
 4. A student can takes homeworks and views scores of courses.
 
+# Flow
 
+![all the dat](../img/dot/flow.png)
 
 # Goals
 1. Analyse the difference, advantages and disadvantages of two approaches by comparing them when we are using both language to do the thing..
@@ -70,17 +55,24 @@ In the end, we plan to compare two approaches or two architectures with developm
 3. Practice DevOps model into our project and experience the whole process of software development life cycle. 
 4. Probably we could see some differences in software cycles of the two different languages after we finish the projects. Developers would have a more clear mind to choose the language for their project according the characteristics of their projects.
 
+#SpringMVC vs. Ruby on Rails
+SpringMVC:
 
-# References
+- Enterprise application
 
-# Flow
+- ORM with Tools, Hibernate
 
-![all the dat](../img/dot/flow.png)
+- Mature platform with extensive community
+
+Ruby on Rails:
+
+- Light weight application
+
+- Easy with data persistence
+
+- Dynamic and User friendly
 
 # Software Development Cycle
-
-
-
 <br>
 <center>
 
@@ -99,9 +91,6 @@ In the end, we plan to compare two approaches or two architectures with developm
 Table:  Potential Software Development Cycle
 
 
-# In the evening
-
-As shown here:
 
 <img align=right src="../img/plot/plot1.png">
 

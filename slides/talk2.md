@@ -1,6 +1,6 @@
 % HomeWork1
-% Team Member
-%Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma
+% Team Members
+%Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma, Shyam R
 
 # Jesse Xu
 - Self Introduction
@@ -29,6 +29,11 @@
 - My name is Hongyi Ma
 
 - My email is hma5#ncsu.edu
+
+# Shyam R
+- My name is Shyam Ramaseshan
+- My email is sramase@ncsu.edu
+- I am from Chennai, India
 
 #Project Proposal
 - Introduction

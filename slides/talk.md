@@ -2,7 +2,6 @@
 % Team Members
 %Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma, Shyam R
 
-
 # Jesse Xu
 
 
@@ -15,6 +14,7 @@
 
 </center>
 
+
 # Pengyu(Fred) Li
 
 <img align=right src="../img/cat.jpg">
@@ -23,23 +23,26 @@
 
 - My email is pli5@ncsu.edu
 
+
 # Jiang Gu
-- Fantastic Geeker 
+- Fantastic Geeker
 - Web Application and IOS development
 - Great minds discuss idea,
   Average minds discuss evenets,
   Small minds discuss people
+
 
 # Hongyi Ma
 - My name is Hongyi Ma
 
 - My email is hma5@ncsu.edu
 
+
 # Shyam R
 
 - My name is Shyam Ramaseshan
 - Email - sramase@ncsu.edu
-- Hobbies - Reading History, Cooking, Eating  
+- Hobbies - Reading History, Cooking, Eating
 
 
 #Project Proposal

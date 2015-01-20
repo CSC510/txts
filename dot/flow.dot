@@ -1,15 +1,25 @@
 digraph {
-     User [shape=box];
-     VerifyingInformation [shape=box];
-     AttachFile [shape=box];
-     CheckDeadline [shape=box];
-     SendTo [shape=box];
-     Database [shape=box];
-     Instructor [shape=box];
-	User -> VerifyingInformation [label = "Username and Passward"];
-	VerifyingInformation -> AttachFile [label = "Verified Information"];
-	AttachFile -> CheckDeadline [label = "file"];
-	CheckDeadline -> SendTo
-	SendTo -> Database
-	SendTo -> Instructor
+     Course1 [shape=box];
+     Course2 [shape=box];
+     Course3 [shape=box];
+     Course4 [shape=box];
+
+//	Course1 -> Course2;
+//	Course2 -> Course3;
+//	Course3 -> Course4;
+	Professor -> Course4 [label = "All questions, answers,\n class roll, homewark attempts,\n and grades"];
+	Professor -> Course2;
+	Professor -> Course3;
+	Professor -> Course1;
+
+	{rank = same; Course1; Course2; Course3; Course4;};
+
+//	Course1 -> Course2;Course2 -> Course3;Course3 -> Course4;
+
+	Course2 -> TA [label = "Questions and answers,\n cannot make changes"];
+	Course2 -> Students [label = "Submit and view scores"];
+
+	{rank = same; "TA";"Students";}
+//	Professor -> Course3;
+//	Professor -> Course4;
 }

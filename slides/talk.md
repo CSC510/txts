@@ -4,6 +4,8 @@
 
 
 # Jesse Xu
+
+
 <center>
 - My name is Shiqian Jesse Xu
 - My email is jesse.xu.20@gmail.com
@@ -39,6 +41,7 @@
 - Email - sramase@ncsu.edu
 - Hobbies - Reading History, Cooking, Eating  
 
+
 #Project Proposal
 - Introduction
 - System Roles
@@ -63,7 +66,7 @@ In the online system, there will be different access control restriction based o
 
 # Business Flow
 <center>
-![all the dat](../img/dot/flow.png)
+[all the dat](../img/dot/flow.png)
 </center>
 
 # Goals
@@ -73,7 +76,7 @@ In the online system, there will be different access control restriction based o
 4. Probably we could see some differences in software cycles of the two different languages after we finish the projects. Developers would have a more clear mind to choose the language for their project according the characteristics of their projects.
 
 #SpringMVC vs. Ruby on Rails
-##SpringMVC:##
+SpringMVC:
 
 - Enterprise application
 
@@ -81,39 +84,10 @@ In the online system, there will be different access control restriction based o
 
 - Mature platform with extensive community
 
-##Ruby on Rails:##
+Ruby on Rails:
 
 - Light weight application
 
 - Easy with data persistence
 
 - Dynamic and User friendly
-
-# Software Development Cycle
-<br>
-<center>
-
-  Time      Things to do
----------   -------------------------------------
-   Week 1     Plan and Set up Environment
-   Week 2     Set up design Requirement and Rubric
-   Week 3     Development in Java Environment
-   Week 4     Run Unit Test & Integration test  
-   Week 5     Development in Ruby Environment
-   Week 6     Run Unit Test & Integration test
-   Week 7     Analysis two development process and reach to Conclusions
-   Week 8     Finish &  Report
-</center>
-	
-Table:  Potential Software Development Cycle
-
-# Work Load Estimate
-
-<img align=right src="../img/plot/plot1.png">
-
-- Approximately 13 hours are used to develop Java
-- Approximately 12 hours are used to develop Ruby
-- About 20 hours are used in test
-- About 15 hours are used in coding
-- About 10 hours are used for other things
-

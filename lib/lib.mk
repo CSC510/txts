@@ -45,7 +45,7 @@ status:
 	- git status
 
 catslides:
-	cat $(Raw)/separate_slides/*.md > $(Raw)/slides/3.md
+	cat $(Raw)/separate_slides/*.md > $(Raw)/slides/talk.md
 
 Skeleton=dot etc plot slides verbatim/imgiii
 dirs: 

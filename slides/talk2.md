@@ -2,14 +2,16 @@
 % Team Members
 %Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma, Shyam R
 
+
 # Jesse Xu
-- Self Introduction
 
 
 <center>
 - My name is Shiqian Jesse Xu
 - My email is jesse.xu.20@gmail.com
 - Hobby: Eating,playing!!(thinking about how to use software to help game)
+-  $E = MC^2$
+- $f(x)=\frac{d}{dx}\int_{a}^{x}f(s)ds$
 
 </center>
 
@@ -27,10 +29,11 @@
 - Great minds discuss idea,
   Average minds discuss evenets,
   Small minds discuss people
+
 # Hongyi Ma
 - My name is Hongyi Ma
 
-- My email is hma5#ncsu.edu
+- My email is hma5@ncsu.edu
 
 # Shyam R
 - My name is Shyam Ramaseshan

@@ -2,6 +2,7 @@
 % Team Members
 %Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma, Shyam R
 
+<<<<<<< HEAD
 
 # Jesse Xu
 
@@ -43,3 +44,5 @@
 - Hobbies - Reading History, Cooking, Eating  
 
 
+=======
+>>>>>>> 7c3c4e9b445da21139b9ca0a433c3b576dc8313c

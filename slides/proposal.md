@@ -22,7 +22,7 @@ In the online system, there will be different access control restriction based o
 
 # Business Flow
 <center>
-![all the dat](../img/dot/flow.png)
+[all the dat](../img/dot/flow.png)
 </center>
 
 # Goals
@@ -32,7 +32,7 @@ In the online system, there will be different access control restriction based o
 4. Probably we could see some differences in software cycles of the two different languages after we finish the projects. Developers would have a more clear mind to choose the language for their project according the characteristics of their projects.
 
 #SpringMVC vs. Ruby on Rails
-##SpringMVC:##
+SpringMVC:
 
 - Enterprise application
 
@@ -40,10 +40,10 @@ In the online system, there will be different access control restriction based o
 
 - Mature platform with extensive community
 
-##Ruby on Rails:##
+Ruby on Rails:
 
 - Light weight application
 
 - Easy with data persistence
 
-- Dynamic and User friendlyTEST2
+- Dynamic and User friendly

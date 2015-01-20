@@ -27,6 +27,7 @@
 - Great minds discuss idea,
   Average minds discuss evenets,
   Small minds discuss people
+
 # Hongyi Ma
 - My name is Hongyi Ma
 

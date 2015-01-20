@@ -22,7 +22,7 @@ In the online system, there will be different access control restriction based o
 
 # Business Flow
 <center>
-<img = "../img/dot/flow.png">
+<img src = "../img/dot/flow.png">
 </center>
 
 # Goals

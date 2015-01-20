@@ -71,7 +71,6 @@ $(Out)/slides/%.html : $(Raw)/slides/%.md
               --biblio $(Raw)/biblio.bib \
 	      -c        ../img/slidy.css \
               -o $@ $<
-
 $(Out)/img/dot/%.png : $(Raw)/dot/%.dot
 	dot -Tpng -o $@ $<
 

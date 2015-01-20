@@ -16,7 +16,7 @@ define target
 endef
 
 
-ready : dirs files dots talks plots pages
+ready : catslides dirs files dots talks plots pages
 	@echo "See $(Out)"
 
 gitting:
@@ -44,7 +44,10 @@ update:
 status:
 	- git status
 
-Skeleton=dot etc plot slides verbatim/img
+catslides:
+	cat $(Raw)/separate_slides/*.md > $(Raw)/slides/talk.md
+
+Skeleton=dot etc plot slides verbatim/imgiii
 dirs: 
 	@$(foreach d,$(Skeleton),mkdir -p $(Raw)/$d;)
 	@mkdir -p $(Out)/slides
@@ -71,7 +74,6 @@ $(Out)/slides/%.html : $(Raw)/slides/%.md
               --biblio $(Raw)/biblio.bib \
 	      -c        ../img/slidy.css \
               -o $@ $<
-
 $(Out)/img/dot/%.png : $(Raw)/dot/%.dot
 	dot -Tpng -o $@ $<
 

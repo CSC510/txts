@@ -22,9 +22,11 @@
 - My email is pli5@ncsu.edu
 
 # Jiang Gu
-- Self Introduction
-- Geeker 
-
+- Fantastic Geeker 
+- Web Application and IOS development
+- Great minds discuss idea,
+  Average minds discuss evenets,
+  Small minds discuss people
 # Hongyi Ma
 - My name is Hongyi Ma
 

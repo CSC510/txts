@@ -36,9 +36,10 @@
 - My email is hma5@ncsu.edu
 
 # Shyam R
+
 - My name is Shyam Ramaseshan
-- My email is sramase@ncsu.edu
-- I am from Chennai, India
+- Email - sramase@ncsu.edu
+- Hobbies - Reading History, Cooking, Eating  
 
 #Project Proposal
 - Introduction

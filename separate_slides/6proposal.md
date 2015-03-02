@@ -6,13 +6,11 @@
 - Development Cycle
 
 # Introduction
-- The idea of the project is to develop a House Management System based on Java SpringMVC. We will utilize two different databases to develop the system. One database is MySQL which is based on SQL, and the other one is MongoDB based on No-SQL. In the end, we will compare two databases performance, website performance and etc.
+- The idea of the project is to develop a House Management System based on Java SpringMVC. We will utilize two different databases to develop the system. One database is MySQL which is based on SQL, and the other one is MongoDB based on No-SQL. In the end, we will compare two databases performance using JUnit Test, System Test and Integration Test.
 
-- In the House Management system, there are different users, such as students and house management staff. Students can make a room and parking slot application, and staff can process students appliation in the system.
+- In the House Management system, there are different users, such as students, house management staff. Students can make a room application, and staff can process students appliation in the system.
 
-- We will develop this website using Java with SpingMVC + Hibernate based on two different databases, and analyse the whole web development process using Agile Development.
-
-- In the end, we plan to compare two approaches with development efficiency, the website performance, the difference of development, testing and deployment, and etc. 
+- We will develop this website using Java with SpingMVC based on two different databases, compare two databases performance and use different testing methods to get the performance result of two databases.
 
 # Business Flow
 <center>

@@ -1,3 +1,37 @@
+
+# Software Development Cycle
+
+<br>
+<center>
+
+  Time      Things to do
+---------   -------------------------------------
+   Week 1     Plan and Set up Environment
+   Week 2     Set up design Requirement and Rubric
+   Week 3     Development in Java Environment
+   Week 4     Run Unit Test & Integration test
+   Week 5     Development in Ruby Environment
+   Week 6     Run Unit Test & Integration test
+   Week 7     Analysis two development process and reach to Conclusions
+   Week 8     Finish &  Report
+</center>
+
+Table:  Potential Software Development Cycle
+
+# Work Load Estimate
+
+<img align=right src="../img/plot/plot1.png">
+
+- Approximately 13 hours are used to develop Java
+- Approximately 12 hours are used to develop Ruby
+- About 20 hours are used in test
+- About 15 hours are used in coding
+- About 10 hours are used for other things
+
+#Reference
+[Github](https://github.com/CSC510/txts/)
+
+
 % SpringMVC SQL vs.NoSQL
 % Team Members
 %Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma
@@ -57,11 +91,11 @@
 - Development Cycle
 
 # Introduction
-- The idea of the project is to develop a House Management System based on Java SpringMVC. We will utilize two different databases to develop the system. One database is MySQL which is based on SQL, and the other one is MongoDB based on No-SQL. In the end, we will compare two databases performance using JUnit Test, System Test and Integration Test.
+- The idea of this project is to develop a House Management System using Java SPringMVC and two different databases. One database is MySQL with SQL, and the other one is MongoDB with No-SQL. We will compare two databases performance in the house management system using different test.
 
 - In the House Management system, there are different users, such as students, house management staff. Students can make a room application, and staff can process students appliation in the system.
 
-- We will develop this website using Java with SpingMVC based on two different databases, compare two databases performance and use different testing methods to get the performance result of two databases.
+- We will compare two databases performance and get the performance result of two databases via JUnit Test, System Test and Integration Test.
 
 # Business Flow
 <center>
@@ -88,37 +122,3 @@ SQL vs. NoSQL:
 - MySQL is SQL database.
 
 - MongoDB is NoSQL database.
-
-# Software Development Cycle
-
-<br>
-<center>
-
-  Time      Things to do
----------   -------------------------------------
-   Week 1     Plan and Set up Environment
-   Week 2     Set up design Requirement and Rubric
-   Week 3     Development in Java Environment
-   Week 4     Run Unit Test & Integration test
-   Week 5     Development in Ruby Environment
-   Week 6     Run Unit Test & Integration test
-   Week 7     Analysis two development process and reach to Conclusions
-   Week 8     Finish &  Report
-</center>
-
-Table:  Potential Software Development Cycle
-
-# Work Load Estimate
-
-<img align=right src="../img/plot/plot1.png">
-
-- Approximately 13 hours are used to develop Java
-- Approximately 12 hours are used to develop Ruby
-- About 20 hours are used in test
-- About 15 hours are used in coding
-- About 10 hours are used for other things
-
-#Reference
-[Github](https://github.com/CSC510/txts/)
-
-

@@ -9,5 +9,8 @@
 -There are two unused labels(wontfix and fixed).
 
 # Test procedure
-- Assign to hma5
-
+- Use JUnit Test to test MonogoDB and MySQL.(Finished)
+-JUnitTestDetails.png
+- System Test.(Processing)
+- Integration Test. (Processing)
+<img align=right src="../img/JUnitTestDetails.png">

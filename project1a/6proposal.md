@@ -17,7 +17,7 @@
 <img src = "../img/dot/flow.png">
 </center>
 
-# Goals
+# Project Goals
 1. Analyse the difference, advantages and disadvantages of two approaches by comparing them when we are using both language to do the thing..
 2. Implement software engineering knowledge(Agile Development) into the practical project.
 3. Practice DevOps model into our project and experience the whole process of software development life cycle. 

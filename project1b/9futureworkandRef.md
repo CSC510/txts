@@ -1,8 +1,8 @@
 #Future work
 
 - MongoDB distributed deployment: mongodb support distributed system that running in separate nodes. Data models and operation performance varies with single node scenarios. 
-- Implement more powerful hardware
-- Include front-end test
+- Improvement in hardware with larger memory and driver. Scale up the size of data set.
+- Building service and application layer for the application. Test in a production environment to find out system performance difference.
 - Test other NoSQL database such as Cassandra
 
 

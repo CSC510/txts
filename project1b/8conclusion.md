@@ -1,4 +1,8 @@
 
+# Single-Thread Performance
+- MongoDB has a better performance in Insertion and deletion, and the number of records in databases affects the deletion performance of MySQL, but has little affection on the deletion performance of MongoDB. 
+- MySQL has a better performance in findbyID, and the number of records in databases can't clearly affect the findbyID performance of MySQL and MongoDB.
+
 # Multi-Thread Performance
 - Little improvement on time factors in insertion and deletion in Mongo like NoSQL database on a single instance has
 - Signficant influence on query performance, the performance could be improved by at least 50%

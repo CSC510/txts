@@ -6,8 +6,8 @@
  ¡¡<th>one to many</th><th>many to many</th>
   </thead>
  <tr>
-  <td><img src="img/one_to_many.jpg" /></td>
-  <td><img src="img/many_to_many.jpg"></td>
+  <td><img src="../img/one_to_many.jpg" /></td>
+  <td><img src="../img/many_to_many.jpg"></td>
  </tr>
 </table>
 - Embedded document in MongoDB

@@ -5,60 +5,6 @@
 
 
 
-<<<<<<< HEAD
-# Jesse Xu
-
-
-<center>
-- My name is Shiqian Jesse Xu
-- My email is jesse.xu.20@gmail.com
-- Hobby: Eating,playing!!(thinking about how to use software to help game)
-
-</center>
-
-
-# Pengyu(Fred) Li
-
-<img align=right src="../img/cat.jpg">
-
-- My name is Pengyu Li.
-
-- My email is pli5@ncsu.edu
-
--  $E = MC^2$
-- $f(x)=\frac{d}{dx}\int_{a}^{x}f(s)ds$
-
-
-# Jiang Gu
-- Fantastic Geeker
-- Web Application and IOS development
-- Great minds discuss idea,
-  Average minds discuss evenets,
-  Small minds discuss people
-
-
-# Hongyi Ma
-- My name is Hongyi Ma
-
-- My email is hma5@ncsu.edu
-
-- Hobbies: Basketball [Small Forward]
-
-- Think and Do
-
-
-
-
-
-#Project Proposal
-- Introduction
-- Business Flow
-- Project Goals
-- Approaches Comparison
-- Development Cycle
-
-=======
->>>>>>> 104212d86c926f1a3809ce02c39fa15cc8b9056b
 # Introduction
 - The idea of this project is to develop a House Management System using Java SPringMVC and two different databases. One database is MySQL with SQL, and the other one is MongoDB with No-SQL. We will compare two databases performance in the house management system using different test.
 
@@ -66,32 +12,13 @@
 
 - We will compare two databases performance and get the performance result of two databases via JUnit Test, System Test and Integration Test.
 
-<<<<<<< HEAD
-# Business Flow
-<center>
-<img src = "../img/dot/flow.png">
-</center>
-
 # Project Goals
-1. Analyse the difference, advantages and disadvantages of two approaches by comparing them when we are using both language to do the thing..
-2. Implement software engineering knowledge(Agile Development) into the practical project.
-3. Practice DevOps model into our project and experience the whole process of software development life cycle. 
-4. Probably we could see some differences in software cycles of the two different languages after we finish the projects. Developers would have a more clear mind to choose the language for their project according the characteristics of their projects.
+1. Develop a house management system based on two different databases(MySQL and MongoDB).
+2. Compare two databases performance, advantages and disadvantages in different situation.
+3. Implement software engineering knowledge(Agile Development) into the practical project.
+4. Practice DevOps model into our project and experience the whole process of software development life cycle. 
+5. Probably we could see some differences in software cycles of the two different languages after we finish the projects. Developers would have a more clear mind to choose the language for their project according the characteristics of their projects.
 
-#SpringMVC SQL vs. NoSQL
-SpringMVC:
-
-- Enterprise application
-
-- ORM with Tools, Hibernate
-
-- Mature platform with extensive community
-
-SQL vs. NoSQL:
-
-- MySQL is SQL database.
-
-- MongoDB is NoSQL database.
 
 # March milestones
 - Basic Dao Layer for MongoDB and MySQL(finished)
@@ -116,21 +43,6 @@ Records      MySQL         MongoDB
  Table: Time Comsuption of Insert Operation 
 
 - More on performance, flexibility, multi-thread, security issues
-=======
-# Project Goals
-1. Develop a house management system based on two different databases(MySQL and MongoDB).
-2. Compare two databases performance, advantages and disadvantages in different situation.
-3. Implement software engineering knowledge(Agile Development) into the practical project.
-4. Practice DevOps model into our project and experience the whole process of software development life cycle. 
-5. Probably we could see some differences in software cycles of the two different languages after we finish the projects. Developers would have a more clear mind to choose the language for their project according the characteristics of their projects.
-
-
-# March milestones
-- Assigned to Jgu7
-
-# Substantive Progress
-- pli5
->>>>>>> 104212d86c926f1a3809ce02c39fa15cc8b9056b
 
 
 
@@ -144,16 +56,11 @@ Records      MySQL         MongoDB
 -There are two unused labels(wontfix and fixed).
 
 # Test procedure
-<<<<<<< HEAD
-- Assign to hma5
-
-=======
 - Use JUnit Test to test MonogoDB and MySQL.(Finished)
 -JUnitTestDetails.png
 - System Test.(Processing)
 - Integration Test. (Processing)
 <img align=right src="../img/JUnitTestDetails.png">
->>>>>>> 104212d86c926f1a3809ce02c39fa15cc8b9056b
 
 # Software Development Cycle
 

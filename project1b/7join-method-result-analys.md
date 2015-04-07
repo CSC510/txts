@@ -102,15 +102,13 @@ In MongoDB,  we would apply following model structure to represent one to many r
 </table>
 
 
-# Analysis
-
-- MySQL
+# MySQL Analysis
 
   - Searching requests responding to house takes 10+ times than searching user''s requests. Querying user's requests only search in the "request" table while  house's requests would take 2 join operations which consumes large time. 
  
  - The result of join even generates larger size of result set. Query in that result set pretends to be extremely slow. Generally, query across multiple tables using sql operations would take much time than single table. The situation get worse when these table scaling up. 
 
-- MongoDB
+# MongoDB Analysis
 
   - Directly find user's requests when we query a specific user and varies a little when scaling up. Any search takes in single collection. 
   

@@ -1,38 +1,33 @@
 
-#Single-thread Performance Test <br> of SQL and NoSQL databases
+#Single-Thread Performance Test <br> of SQL and NoSQL databases
 
 - Choose MySQL(SQL) and MongoDB(NoSQL) to test their single thread performance.
 - See the performance of Insertion, FindbyID, Deletion for MySQL and MongoDB.
-Method: Control Variates 
+- Method: Control Variates 
 <ul>
 <li>Insertion
   <ul>
    <li> Fixed <u>number</u> of records to be added to the two databases.
    <li> Increase the <u>number</u> to be added (from 5,000 to 200,000) and see if the time gap increases.
- 
  </ul>
 <li>FindbyId
-</ul>
-<ul>
 <li> Method 1:
    <ul>
    <li> Fixed number of records (200,000) existing in the database
    <li> Fixed <u>number</u> of records need to be found
-  <br><b> Increase the <u>number</u> to be found and see if the time gap increases</b>
+   <li> Increase the <u>number</u> to be found and see if the time gap increases
    </ul>
 </ul>
 
-#Single-thread Performance Test <br> of SQL and NoSQL databases
+#Single-Thread Performance Test <br> of SQL and NoSQL databases
 <ul>
 <li> Method 2:
    <ul>
    <li> Fixed number of records(5,000) need to be found
    <li> Fixed <u>number</u> of records existing in the database
-  <br><b> Increase the <u>number</u> existing in the database (from 5, 000 to 200,000) and see if the time gap increases</b>
+   <li> Increase the <u>number</u> existing in the database (from 5, 000 to 200,000) and see if the time gap increases
    </ul>
-</ul>
-   <li> Increase the <u>number</u> existing in the database (from 5, 000 to 200,000) and see if the time gap increases.
-   </ul>
+<li>Deletion
   <ul>
   <li>Method1: Similar as in FindbyId Method 1
   <li>Method2: Similar as in FindbyId Method 2
@@ -41,12 +36,11 @@ Method: Control Variates
 
 # Test Result in MongoDB
 
-<img src="../img/single_add.jpg"/>
+<img src="../img/single_add.png"/>
 <img src="../img/single_find_1.png"/>
 <img src="../img/single_find_2.png"/>
 <img src="../img/single_del_1.png"/>
 <img src="../img/single_del_2.png"/>
-<img src="../img/many_to_many.jpg"/>
 
 # Analysis on Single-thread Performance <br> in MySQL and MongoDB
  
@@ -68,3 +62,5 @@ Method: Control Variates
    - Method 2：
    - MongoDB is faster than MySQL in deletion the same number of records (5000) from databases with varied number of records.
    - The number of records in databases affects the deletion performance of MySQL, and has little affection on the deletion performance of MongoDB.
+
+

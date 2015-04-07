@@ -1,3 +1,10 @@
+% Spring SQL vs.NoSQL
+% Team Members
+%Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma
+
+
+
+
 #Introduction
 
 - SQL:
@@ -9,8 +16,7 @@
   - key-value, column-oriented, document-based
   - Cassandra, MongoDB
 
-
-Comparison of SQL and NoSQL database is a hot topic.
+-Comparison of SQL and NoSQL database is a hot topic.
 
 #Comparison between SQL and NoSQL
 
@@ -30,49 +36,41 @@ Compare the performance of MySQL and MongoDB
 
 
 
-#Architecture
+#Architecture of Spring IOC
 
-Spring IoC
- 
 - MySQL Dao:  Hibernate Session
 - MongoDB Dao: SpringData MongoTemplate
+- Architecture <br> <img src="../img/spring_architecture.jpg">
 
-<img src="../img/spring_architecture.jpg">
-
-#Single-thread Performance Test <br> of SQL and NoSQL databases
+#Single-Thread Performance Test <br> of SQL and NoSQL databases
 
 - Choose MySQL(SQL) and MongoDB(NoSQL) to test their single thread performance.
 - See the performance of Insertion, FindbyID, Deletion for MySQL and MongoDB.
-Method: Control Variates 
+- Method: Control Variates 
 <ul>
 <li>Insertion
   <ul>
    <li> Fixed <u>number</u> of records to be added to the two databases.
    <li> Increase the <u>number</u> to be added (from 5,000 to 200,000) and see if the time gap increases.
- 
  </ul>
 <li>FindbyId
-</ul>
-<ul>
 <li> Method 1:
    <ul>
    <li> Fixed number of records (200,000) existing in the database
    <li> Fixed <u>number</u> of records need to be found
-  <br><b> Increase the <u>number</u> to be found and see if the time gap increases</b>
+   <li> Increase the <u>number</u> to be found and see if the time gap increases
    </ul>
 </ul>
 
-#Single-thread Performance Test <br> of SQL and NoSQL databases
+#Single-Thread Performance Test <br> of SQL and NoSQL databases
 <ul>
 <li> Method 2:
    <ul>
    <li> Fixed number of records(5,000) need to be found
    <li> Fixed <u>number</u> of records existing in the database
-  <br><b> Increase the <u>number</u> existing in the database (from 5, 000 to 200,000) and see if the time gap increases</b>
+   <li> Increase the <u>number</u> existing in the database (from 5, 000 to 200,000) and see if the time gap increases
    </ul>
-</ul>
-   <li> Increase the <u>number</u> existing in the database (from 5, 000 to 200,000) and see if the time gap increases.
-   </ul>
+<li>Deletion
   <ul>
   <li>Method1: Similar as in FindbyId Method 1
   <li>Method2: Similar as in FindbyId Method 2
@@ -81,12 +79,11 @@ Method: Control Variates
 
 # Test Result in MongoDB
 
-<img src="../img/single_add.jpg"/>
+<img src="../img/single_add.png"/>
 <img src="../img/single_find_1.png"/>
 <img src="../img/single_find_2.png"/>
 <img src="../img/single_del_1.png"/>
 <img src="../img/single_del_2.png"/>
-<img src="../img/many_to_many.jpg"/>
 
 # Analysis on Single-thread Performance <br> in MySQL and MongoDB
  
@@ -108,6 +105,8 @@ Method: Control Variates
    - Method 2：
    - MongoDB is faster than MySQL in deletion the same number of records (5000) from databases with varied number of records.
    - The number of records in databases affects the deletion performance of MySQL, and has little affection on the deletion performance of MongoDB.
+
+
 #Multi-thread Performance Test <br> of NoSQL databases
 - See whether using <b>multiple threads</b> is an effective way to <b>save time</b> in Mongo like NOSQL databases
 Method: Control Variates 
@@ -279,15 +278,13 @@ In MongoDB,  we would apply following model structure to represent one to many r
 </table>
 
 
-# Analysis
-
-- MySQL
+# MySQL Analysis
 
   - Searching requests responding to house takes 10+ times than searching user''s requests. Querying user's requests only search in the "request" table while  house's requests would take 2 join operations which consumes large time. 
  
  - The result of join even generates larger size of result set. Query in that result set pretends to be extremely slow. Generally, query across multiple tables using sql operations would take much time than single table. The situation get worse when these table scaling up. 
 
-- MongoDB
+# MongoDB Analysis
 
   - Directly find user's requests when we query a specific user and varies a little when scaling up. Any search takes in single collection. 
   
@@ -298,16 +295,16 @@ In MongoDB,  we would apply following model structure to represent one to many r
 
 
 
-# Single-Thread Performance
+# Conclusion <br> Single-Thread Performance
 - MongoDB has a better performance in Insertion and deletion, and the number of records in databases affects the deletion performance of MySQL, but has little affection on the deletion performance of MongoDB. The main reason is that MySQL commands excute transaction and event. 
 - MySQL has a better performance in finding records from databases, and the number of records in databases can not clearly affect the finding performance of MySQL and MongoDB.
 
-# Multi-Thread Performance
+# Conclusion <br> Multi-Thread Performance
 - Little improvement on time factors in insertion and deletion in Mongo like NoSQL database on a single instance has
 - Signficant influence on query performance, the performance could be improved by at least 50%
 - More improvement could be achieved by utilizing expanded scale of cluster servers
 
-# Join Table Performance
+# Conclusion <br> Join Table Performance
 - In a scenario that requires much relational design, it is needed in MySQL to strictly define the schema of tables. With dynamic SQL query, we could easily associated data and map the relation. 
 
 - In a less related and huge scale scenario, query is expected inside single table which SQL lost its power. MongoDB is more suit using embedded structure and flexible to extension in data model. 
@@ -335,3 +332,6 @@ In MongoDB,  we would apply following model structure to represent one to many r
 [6] Yishan Li, Sathiamoorthy Manoharan, "A performance comparison of SQL and NoSQL databases", in IEEE 2013.
 
 [7] http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+
+# Q & A
+<h0 align="center"> Thank you!!</h0>

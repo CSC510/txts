@@ -20,3 +20,6 @@
 [6] Yishan Li, Sathiamoorthy Manoharan, "A performance comparison of SQL and NoSQL databases", in IEEE 2013.
 
 [7] http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+
+# Q & A
+<h0 align="center"> Thank you!!</h0>

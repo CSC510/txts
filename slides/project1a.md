@@ -1,10 +1,3 @@
-% SpringMVC SQL vs.NoSQL
-% Team Members
-%Jesse Xu, Pengyu Li, Jiang Gu, Hongyi Ma
-
-
-
-
 # Introduction
 - The idea of this project is to develop a House Management System using Java SPringMVC and two different databases. One database is MySQL with SQL, and the other one is MongoDB with No-SQL. We will compare two databases performance in the house management system using different test.
 

@@ -20,3 +20,6 @@ Reference:
 [6] Yishan Li, Sathiamoorthy Manoharan, "A performance comparison of SQL and NoSQL databases", in IEEE 2013.
 
 [7]http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+#Future work
+
+- MongoDB distributed deployment: mongodb support distributed system that running in separate nodes. Data models and operation performance varies with single node scenarios. 

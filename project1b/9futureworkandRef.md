@@ -1,15 +1,19 @@
+<<<<<<< HEAD
 #Future Work and Reference
+=======
+#Future work
 
--  Implement more powerful hardware
--  Include front-end test
--  Test other NoSQL database such as Cassandra
+- MongoDB distributed deployment: mongodb support distributed system that running in separate nodes. Data models and operation performance varies with single node scenarios. 
+- Improvement in hardware with larger memory and driver. Scale up the size of data set.
+- Building service and application layer for the application. Test in a production environment to find out system performance difference.
+- Test other NoSQL database such as Cassandra
+>>>>>>> 4674d9fc28438ca23f3a611774ca2b339dfeee6e
 
 
-Reference:
+#Reference:
+[1] http://www.thewindowsclub.com/difference-sql-nosql-comparision
 
-[1]http://www.thewindowsclub.com/difference-sql-nosql-comparision
-
-[2]http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/
+[2] http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/
 
 [3] Ramon Lawrence, "Integration and Virtualization of Relational SQL and NoSQL Systems including MySQL and MongoDB", in International Conference on Computational Science and Computational Intelligence, 2014.
 
@@ -19,7 +23,11 @@ Reference:
 
 [6] Yishan Li, Sathiamoorthy Manoharan, "A performance comparison of SQL and NoSQL databases", in IEEE 2013.
 
+<<<<<<< HEAD
 [7]http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
 #Future work
 
 - MongoDB distributed deployment: mongodb support distributed system that running in separate nodes. Data models and operation performance varies with single node scenarios. 
+=======
+[7] http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+>>>>>>> 4674d9fc28438ca23f3a611774ca2b339dfeee6e

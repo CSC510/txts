@@ -3,15 +3,21 @@
 - Relational design in MySQL
 <table border=0 style="border-collapse:collapse;">
   <thead>
- 　<th>one to many</th><th>many to many</th>
+  <th>one to many</th>
   </thead>
  <tr>
   <td><img src="../img/one_to_many.jpg" /></td>
+ </tr>
+ <th>many to many</th>
+ <tr>
   <td><img src="../img/many_to_many.jpg"></td>
  </tr>
 </table>
-- Embedded document in MongoDB
- In MongoDB,  we would apply following model structure to represent one to many relation.
+
+# Embedded document in MongoDB
+
+In MongoDB,  we would apply following model structure to represent one to many relation.
+
 <pre><code>
 {
 	"_id":
@@ -38,17 +44,15 @@
 		}
 	}
 }
-
 </code></pre>
 
 #Data
 - MySQL
 <table border=0 style="border-collapse:collapse;">
   <thead>
- 　<th>#Records<br>
- (request*100)</th>
- 　<th>100</th>
- 　<th>1000</th>
+ <th>#Records</th>
+ <th>100</th>
+ <th>1000</th>
  <th>10000</th>
   </thead>
  <tr>
@@ -68,11 +72,11 @@
 - MongoDB
 <table border=0 style="border-collapse:collapse;">
   <thead>
- 　<th>#Records</th>
- 　<th>100</th>
- 　<th>1000</th>
- 　<th>10000</th>
- 　<th>100000</th>
+ <th>#Records</th>
+ <th>100</th>
+ <th>1000</th>
+ <th>10000</th>
+ <th>100000</th>
   </thead>
  <tr>
   <td>user</td>
@@ -102,7 +106,7 @@
 
 - MySQL
 
-  - Searching requests responding to house takes 10+ times than searching user's requests. Querying user's requests only search in the "request" table while  house's requests would take 2 join operations which consumes large time. 
+  - Searching requests responding to house takes 10+ times than searching user''s requests. Querying user's requests only search in the "request" table while  house's requests would take 2 join operations which consumes large time. 
  
  - The result of join even generates larger size of result set. Query in that result set pretends to be extremely slow. Generally, query across multiple tables using sql operations would take much time than single table. The situation get worse when these table scaling up. 
 

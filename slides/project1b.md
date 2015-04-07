@@ -78,11 +78,13 @@ Method: Control Variates
 </ul>
 
 # Test Result in MongoDB
-<img src="img/single_add.png"/>
-<img src="img/single_find_1.png"/>
-<img src="img/single_find_2.png"/>
-<img src="img/single_del_1.png"/>
-<img src="img/single_del_2.png"/>
+
+<img src="../img/single_add.png"/>
+<img src="../img/single_find_1.png"/>
+<img src="../img/single_find_2.png"/>
+<img src="../img/single_del_1.png"/>
+<img src="../img/single_del_2.png"/>
+<img src="../img/many_to_many.jpg">
 
 # Analysis on Single-thread Performance <br> in MySQL and MongoDB
  

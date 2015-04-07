@@ -1,4 +1,4 @@
-#Multi-thread Performance Test of NoSQL databases
+#Multi-thread Performance Test <br> of NoSQL databases
 - See whether using <b>multiple threads</b> is an effective way to <b>save time</b> in Mongo like NOSQL databases
 Method: Control Variates 
 <ul>
@@ -18,6 +18,11 @@ Method: Control Variates
    <li> Fixed <u>number</u> of records need to be found
   <br><b> Increase the <u>number</u> to be found and see if the time gap increases</b>
    </ul>
+</ul>
+
+#Multi-thread Performance Test <br> of NoSQL databases
+
+<ul>
 <li> Method 2:
    <ul>
    <li> Different numbers of threads
@@ -40,7 +45,7 @@ Method: Control Variates
 <img src="img/multi_del_1.png"/>
 <img src="img/multi_del_2.png"/>
 
-# Analysis on Multi-thread Performance in Mongo
+# Analysis on Multi-thread Performance <br>in Mongo
  
  - Insertion 
     <br>Not much improvement on the time used to do the insertion. Multi-thread has no contributions to it but wasting the extra resourses.
@@ -49,6 +54,9 @@ Method: Control Variates
    - Method 1: 
     <br> Utilizing one more thread saves about 50% time. However, no further gain by adding more threads.
      - Reason : 
+
+# Analysis on Multi-thread Performance <br>in Mongo
+
    - Method 2
     <br> No large improvement hoewever has small gain using multiple threads. Adding more threads has little gain.
      - No huge diff? : small dataset, PC performance limit. 

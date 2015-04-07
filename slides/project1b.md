@@ -14,6 +14,10 @@ Comparison of SQL and NoSQL database is a hot topic.
 
 #Comparison between SQL and NoSQL
 
+<img src="../img/comparison table.png">
+
+
+
 
 #Goal
 

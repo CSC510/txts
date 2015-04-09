@@ -4,6 +4,7 @@
 - Improvement in hardware with larger memory and driver. Scale up the size of data set.
 - Building service and application layer for the application. Test in a production environment to find out system performance difference.
 - Test other NoSQL database such as Cassandra
+- MongoDB distributed deployment: mongodb support distributed system that running in separate nodes. Data models and operation performance varies with single node scenarios. 
 
 
 #Reference:
@@ -19,7 +20,13 @@
 
 [6] Yishan Li, Sathiamoorthy Manoharan, "A performance comparison of SQL and NoSQL databases", in IEEE 2013.
 
-[7] http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+[7]http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
 
-# Q & A
-<h0 align="center"> Thank you!!</h0>
+- MongoDB distributed deployment: mongodb support distributed system that running in separate nodes. Data models and operation performance varies with single node scenarios. 
+
+#
+<center>
+<br><br>
+<front size = "10">Q & A</p1> </front> <br><br>
+<font size="10">Thank you!!</font>
+</center>

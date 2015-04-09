@@ -1,5 +1,4 @@
 #Multi-thread Performance Test <br> of NoSQL databases
-<table>
 - See whether using <b>multiple threads</b> is an effective way to <b>save time</b> in Mongo like NOSQL databases
 
 <img align="right" src="../img/rsz_multi_insert.png"/>
@@ -14,7 +13,7 @@
 - Reasons:
 	- <br>Not much improvement on the time used to do the insertion. Multi-thread has no contributions to it but wasting the extra resourses.
 	- No gain? database Lock Mechanism
-</table>
+
 #Multi-thread Performance Test <br> of NoSQL databases
 
 - FindbyId
@@ -29,6 +28,7 @@
 
 - Reasons:
 	- <br> Utilizing one more thread saves about 50% time. However, no further gain by adding more threads.
+
 
 #Multi-thread Performance Test <br> of NoSQL databases
 

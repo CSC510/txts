@@ -16,11 +16,22 @@
   - key-value, column-oriented, document-based
   - Cassandra, MongoDB
 
--Comparison of SQL and NoSQL database is a hot topic.
-
 #Comparison between SQL and NoSQL
 
-<img src="../img/comparison table.png">
+
+<center>
+Differences                                 MySQL                                                             MongoDB
+-----------------------------------     --------------------------------------------------------    -----------------------------------------------------------------
+Memory Usage                             reasonable memory usage                                    Need enough memory to keep efficient
+Scalability                                     hard to scale                                       easy to scale
+Complex query performance                 unsatisfying complex query performance                    handle more complicated queries faster
+Single thread VS. Multiple thread         vary with different operations                            no apparent advantage over 4 threads
+Data association                          support dynamic SQL query like join tables                support embedded collections
+Security                                  give a quite safe performance                             still have some security issues
+Supports transactions                      supports for atomic transactions                         does not support transactions but single operations are atomic
+Data manipulation                          Specific language using Select, Insert, and Update       Through object-oriented APIs
+Consistency                                Can be configured for strong consistency                 Depends on product
+</center>
 
 
 
@@ -30,6 +41,8 @@
 Compare the performance of MySQL and MongoDB
 
 - Single thread VS. Multiple threads
+  - Use basic operations: add, find, and delete
+  - Run tests both in single thread and multiple threads
 - Join performance
 
 
@@ -104,31 +117,7 @@ Compare the performance of MySQL and MongoDB
 	- MongoDB is faster than MySQL in deletion the same number of records (5000) from databases with varied number of records.
 	- The number of records in databases affects the deletion performance of MySQL, and has little affection on the deletion performance of MongoDB.
 
-
-# Analysis on Single-thread Performance <br> in MySQL and MongoDB
- 
- - Insertion 
-   - MongoDB's Insertion performance is better than MySQL's insertion performance in single thread.
- - Find
-   - Method 1: 
-   - MySQL is faster than MongoDB in findbyID an increasing number of records in database with a fixed number of records.  
-   - Method 2:
-   - MysQL is faster than MongoDB in findbyID a fixed number of records from databases with a varied number of records.
-   - The number of records in databases can't clearly affect findbyID performance of MySQL and MongoDB.
-   - The number of records in databases can not clearly affect findbyID performance of MySQL and MongoDB.
-
-# Analysis on Single-thread Performance <br> in MySQL and MongoDB
-
- - Delete
-   - Method 1:
-   - MongoDB is faster than MySQL in deletion different number of records from databases with fixed number of records(200000). 
-   - Method 2：
-   - MongoDB is faster than MySQL in deletion the same number of records (5000) from databases with varied number of records.
-   - The number of records in databases affects the deletion performance of MySQL, and has little affection on the deletion performance of MongoDB.
-
-
 #Multi-thread Performance Test <br> of NoSQL databases
-<table>
 - See whether using <b>multiple threads</b> is an effective way to <b>save time</b> in Mongo like NOSQL databases
 
 <img align="right" src="../img/rsz_multi_insert.png"/>
@@ -143,7 +132,7 @@ Compare the performance of MySQL and MongoDB
 - Reasons:
 	- <br>Not much improvement on the time used to do the insertion. Multi-thread has no contributions to it but wasting the extra resourses.
 	- No gain? database Lock Mechanism
-</table>
+
 #Multi-thread Performance Test <br> of NoSQL databases
 
 - FindbyId
@@ -158,6 +147,7 @@ Compare the performance of MySQL and MongoDB
 
 - Reasons:
 	- <br> Utilizing one more thread saves about 50% time. However, no further gain by adding more threads.
+
 
 #Multi-thread Performance Test <br> of NoSQL databases
 
@@ -327,6 +317,7 @@ In MongoDB,  we would apply following model structure to represent one to many r
 - Improvement in hardware with larger memory and driver. Scale up the size of data set.
 - Building service and application layer for the application. Test in a production environment to find out system performance difference.
 - Test other NoSQL database such as Cassandra
+- MongoDB distributed deployment: mongodb support distributed system that running in separate nodes. Data models and operation performance varies with single node scenarios. 
 
 
 #Reference:
@@ -342,7 +333,13 @@ In MongoDB,  we would apply following model structure to represent one to many r
 
 [6] Yishan Li, Sathiamoorthy Manoharan, "A performance comparison of SQL and NoSQL databases", in IEEE 2013.
 
-[7] http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+[7]http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
 
-# Q & A
-<h0 align="center"> Thank you!!</h0>
+- MongoDB distributed deployment: mongodb support distributed system that running in separate nodes. Data models and operation performance varies with single node scenarios. 
+
+#
+<center>
+<br><br>
+<front size = "10">Q & A</p1> </front> <br><br>
+<font size="10">Thank you!!</font>
+</center>
